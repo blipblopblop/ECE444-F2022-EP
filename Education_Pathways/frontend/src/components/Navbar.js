@@ -55,6 +55,13 @@ export default class NavbarComp extends Component {
               </Nav.Link>
             </Navbar.Brand>
 
+            <Navbar.Brand>
+              <img src={logo} alt="" />{" "}
+              <Nav.Link href="/" style={{ color: "white", display: "inline" }}>
+                ECE444-Lab1
+              </Nav.Link>
+            </Navbar.Brand>
+
             <Navbar.Toggle />
             <Navbar.Collapse>
               <Nav>
