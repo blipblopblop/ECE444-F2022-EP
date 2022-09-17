@@ -66,12 +66,7 @@ export default class NavbarComp extends Component {
                   Search
                 </Nav.Link> */}
 
-            <Navbar.Toggle />
-            <Navbar.Collapse>
-              <Nav>
-                <Nav.Link as={Link} to="/about">
-                  ECE444
-                </Nav.Link>
+                
 
               </Nav>
             </Navbar.Collapse>
