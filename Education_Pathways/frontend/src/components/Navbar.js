@@ -66,7 +66,11 @@ export default class NavbarComp extends Component {
                   Search
                 </Nav.Link> */}
 
-                
+                <Nav.Link as={Link} to="/ECE444-Lab1">
+                  ECE444-Lab1
+                </Nav.Link>
+
+
 
               </Nav>
             </Navbar.Collapse>
@@ -74,6 +78,20 @@ export default class NavbarComp extends Component {
         </div>
         <div>
           <Switch>
+          <Route path="/ECE444-Lab1">
+            <div className = "body_text">
+              <p>
+                Fatima
+
+              </p>
+
+
+            </div>
+
+
+          </Route>
+
+
           <Route path="/about">
             <div className = "body_text">
             <p>
